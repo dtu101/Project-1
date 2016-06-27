@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<dog>
+	<Golden_Retriever id="1">
+		<portrait>/Dogs/Temp/portrait.png</portrait>
+		<sprite>/Dogs/Temp/portrait.png</sprite>
+		<stats>
+			<speed>4</speed>
+			<beauty>7</beauty>
+			<intelligence>7</intelligence>
+			<obedience>6</obedience>
+			<stamina>3</stamina>
+			<happiness>10</happiness>
+			<hunger>100</hunger>
+		</stats>
+		<bio>
+			<origin>UK</origin>
+		</bio>
+	</Golden_Retriever>
+	<Panda_Dog id="2">
+		<portrait>/Dogs/Temp/portrait2.png</portrait>
+		<sprite>/Dogs/Temp/portrait2.png</sprite>
+		<stats>
+			<speed>3</speed>
+			<beauty>5</beauty>
+			<intelligence>8</intelligence>
+			<obedience>6</obedience>
+			<stamina>8</stamina>
+			<happiness>7</happiness>
+			<hunger>100</hunger>
+		</stats>
+		<bio>
+			<origin>UK</origin>
+		</bio>
+	</Panda_Dog>
+	<Panda_DogTu id="3">
+		<portrait>/Dogs/Temp/portrait2.png</portrait>
+		<sprite>/Dogs/Temp/portrait2.png</sprite>
+		<stats>
+			<speed>100</speed>
+			<beauty>10000</beauty>
+			<intelligence>1000</intelligence>
+			<obedience>1000</obedience>
+			<stamina>100</stamina>
+			<happiness>9999999999</happiness>
+			<hunger>100</hunger>
+		</stats>
+		<bio>
+			<origin>China</origin>
+		</bio>
+	</Panda_DogTu>
+	<Husky id="4">
+		<portrait>/Dogs/Temp/portrait3.png</portrait>
+		<sprite>/Dogs/Temp/portrait3.png</sprite>
+		<stats>
+			<speed>6</speed>
+			<beauty>10</beauty>
+			<intelligence>8</intelligence>
+			<obedience>8</obedience>
+			<stamina>5</stamina>
+			<happiness>9999999999</happiness>
+			<hunger>10</hunger>
+		</stats>
+		<bio>
+			<origin>Alaska</origin>
+		</bio>
+	</Husky>
+</dog>

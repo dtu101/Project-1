@@ -1,0 +1,43 @@
+{  
+   com.badlogic.gdx.graphics.g2d.BitmapFont:{  
+      EuphoriaScriptRegular:{  
+         file:Resources/Fonts/EuphoriaScriptRegular.fnt
+      }
+	  EuphoriaScriptSmall:{  
+         file:Resources/Fonts/EuphoriaScriptSmall.fnt
+      }
+   },
+   com.badlogic.gdx.graphics.Color:{  
+      red:{  
+         a:1,
+         b:0,
+         g:0,
+         r:1
+      },
+      green:{  
+         a:1,
+         b:0,
+         g:1,
+         r:0
+      },
+      blue:{  
+         a:1,
+         b:1,
+         g:0,
+         r:0
+      },
+      white:{  
+         hex:"FFFFFF"
+      },
+      black:{  
+         hex:"000000"
+      }
+   },
+   com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+	default: { down: default-button-down, up: default-button-up, font: EuphoriaScriptRegular, fontColor: white, over: default-button-down, downFontColor:red },
+	small: { down: default-button-down, up: default-button-up, checked: default-button-up, font: EuphoriaScriptSmall, fontColor: white, downFontColor: red }
+},
+	com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle:{
+	default: { font: EuphoriaScriptSmall, fontColor: blue }
+	},
+}

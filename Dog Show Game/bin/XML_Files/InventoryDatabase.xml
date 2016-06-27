@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<inventory>
+	<Food_Items spawn_rate = ".30">
+		<Dog_Biscuit id="1">
+			<icon>/Items/Food/DogBiscuit.png</icon>
+			<sprite>/Items/Food/DogBiscuit.png</sprite>
+			<type>food</type>
+			<name>Dog Biscuit</name>
+			<info>A very delectible treat for all kinds of dogs and puppies xD and also for humans if you're that desperate</info>
+			<gold_value>10</gold_value>
+			<hunger_value>25</hunger_value>
+			<spawnable>true</spawnable>
+			<spawn_rate>.05</spawn_rate>
+		</Dog_Biscuit>
+		<Dog_Kibble id="2">
+			<icon>/Items/Food/DogKibble.png</icon>
+			<sprite>/Items/Food/DogKibble.png</sprite>
+			<type>food</type>
+			<name>Dog Kibble</name>
+			<info>A balanced meal for all kinds of dogs</info>
+			<gold_value>5</gold_value>
+			<hunger_value>10</hunger_value>
+			<spawnable>true</spawnable>
+			<spawn_rate>.10</spawn_rate>
+		</Dog_Kibble>
+		<Water id="3">
+			<icon>/Items/Food/Water.png</icon>
+			<sprite>/Items/Food/Water.png</sprite>
+			<type>food</type>
+			<name>Water</name>
+			<info>Water... What more do you want...</info>
+			<gold_value>2</gold_value>
+			<hunger_value>5</hunger_value>
+			<spawnable>true</spawnable>
+			<spawn_rate>.60</spawn_rate>
+		</Water>
+	</Food_Items>
+	<Obstacle_Items spawn_rate = ".70">
+		<Bush id="500">
+			<icon>/Items/Obstacles/Bush.png</icon>
+			<sprite>/Items/Obstacles/Bush.png</sprite>
+			<type>obstacle</type>
+			<name>Bush</name>
+			<info>Why do you have this bush...</info>
+			<gold_value>0</gold_value>
+			<spawnable>true</spawnable>
+			<spawn_rate>1.0</spawn_rate>
+		</Bush>
+	</Obstacle_Items>
+</inventory>
